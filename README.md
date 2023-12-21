@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to `gogo-exercise`, a collection of easy-level coding challenges designed for those beginning their journey with Go. This project aims to provide practical problems to help you grasp the fundamentals of Go programming.
+Welcome to `gogo-exercise`, a collection coding challenges. This project aims to provide practical problems to help you grasp the fundamentals of Go programming.
 
 ## Getting Started
 
