@@ -1,8 +1,6 @@
 # gogo exercise
 
-## Introduction
-
-Welcome to `gogo-exercise`, a collection coding challenges. This project aims to provide practical problems to help you grasp the fundamentals of Go programming.
+A collection coding challenges. This project aims to provide practical problems to help you grasp the fundamentals of Go programming.
 
 ## Getting Started
 
@@ -27,9 +25,7 @@ Each challenge is contained in its own directory with a separate `README.md` fil
 To start solving the challenges:
 
 1. Clone this repository to your local machine.
-2. Navigate to the challenge directory you wish to solve.
-3. Read the `README.md` in the challenge directory for specific instructions.
-4. Implement your solution in Go.
+2. go run . <challenge_key>
 
 ## Contribution
 
