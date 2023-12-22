@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	ERROR_TEXT = "Unknown action provided. Usage: Available actions: binary_search, thread_safe_counter, fib, fizzbuzz, linked_list"
+	ERROR_TEXT = "Unknown action provided. Usage: Available actions: binary_search, thread_safe_counter, fib, fizzbuzz, linked_list, blockchain"
 )
 
 func main() {
