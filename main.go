@@ -24,6 +24,22 @@ func main() {
 		lib.Counter()
 	case "fizzbuzz":
 		lib.FizzBuzz(30)
+	case "linked_list":
+		myList := &lib.List{}
+
+		err := myList.Insert("Hello")
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		myList.Insert("can")
+		myList.Insert("you")
+		myList.Insert("hear")
+		myList.Insert("me")
+
+		fmt.Println(myList)
+		fmt.Println(myList.Len())
+
 	default:
 		panic(ERROR_TEXT)
 	}
