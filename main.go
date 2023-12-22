@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"gogo-exercise/lib"
 	"os"
+	"strconv"
 )
 
 const (
-	ERROR_TEXT = "Unknown action provided. Usage: Available actions: binary_search, thread_safe_counter"
+	ERROR_TEXT = "Unknown action provided. Usage: Available actions: binary_search, thread_safe_counter, fib, fizzbuzz, linked_list"
 )
 
 func main() {
@@ -39,6 +40,9 @@ func main() {
 
 		fmt.Println(myList)
 		fmt.Println(myList.Len())
+	case "fib":
+		input, _ := strconv.Atoi(os.Args[2])
+		fmt.Println(lib.Fib(input))
 
 	default:
 		panic(ERROR_TEXT)
