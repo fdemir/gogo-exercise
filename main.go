@@ -43,6 +43,15 @@ func main() {
 	case "fib":
 		input, _ := strconv.Atoi(os.Args[2])
 		fmt.Println(lib.Fib(input))
+	case "blockchain":
+		bc := &lib.BlockChain{}
+
+		bc.AddBlock(234.5)
+		bc.AddBlock(233.5)
+		bc.AddBlock(322.5)
+		bc.AddBlock(1.5)
+
+		bc.DangerouslySetBlockAmount(2, 9999)
 
 	default:
 		panic(ERROR_TEXT)
