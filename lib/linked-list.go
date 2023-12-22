@@ -43,8 +43,6 @@ func (l *List) String() string {
 	return sb.String()
 }
 
-// len
-
 func (l *List) Len() int {
 	var count int
 
