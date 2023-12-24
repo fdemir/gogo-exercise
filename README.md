@@ -2,6 +2,10 @@
 
 A collection coding challenges. This project aims to provide practical problems to help you grasp the fundamentals of Go programming.
 
+<div align="center">
+  <img src="gopher.webp" width="300px" />
+</div>
+
 ## Getting Started
 
 To get started with these exercises, you will need to have Go installed on your machine. If you haven't installed Go yet, follow the instructions on the [official Go website].(https://golang.org/doc/install)
