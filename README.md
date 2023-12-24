@@ -16,7 +16,7 @@ This repository contains a series of challenges, each focusing on a specific asp
 4. Linked List
 5. Fibonacci Sequence
 6. Basic Blockchain Implementation
-7. Basic HTTP Server
+7. Concurrent Scrapper
 
 Each challenge is contained in its own directory with a separate `README.md` file providing more details.
 

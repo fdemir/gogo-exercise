@@ -52,6 +52,8 @@ func main() {
 		bc.AddBlock(1.5)
 
 		bc.DangerouslySetBlockAmount(2, 9999)
+	case "scrapper":
+		lib.ConcurrentScrapper()
 
 	default:
 		panic(ERROR_TEXT)
