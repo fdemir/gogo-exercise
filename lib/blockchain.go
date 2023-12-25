@@ -61,6 +61,7 @@ func (bc *BlockChain) AddBlock(
 	bc.chain = append(bc.chain, *block)
 }
 
+// it's for testing purpose only.
 func (bc *BlockChain) DangerouslySetBlockAmount(
 	index int,
 	amount float64,
